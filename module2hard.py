@@ -16,8 +16,7 @@ for i in range(len_):
     for j in range(i+1, len_):
         if n % (num[i] + num[j]) == 0:
             lst.append(str(num[i]) + str(num[j]))
-        else:
-            pass
+
 
 print('Пароль:', ''.join(lst))
 
